@@ -1,0 +1,17 @@
+
+moc_mainwindow.o
+.qmake.stash
+connexion.o
+main.o
+mainwindow.o
+Makefile
+moc_connexion.cpp
+moc_connexion.o
+moc_mainwindow.cpp
+moc_profile.cpp
+moc_profile.o
+newworld2.app/Contents/Info.plist
+newworld2.app/Contents/MacOS/newworld2
+newworld2.app/Contents/PkgInfo
+newworld2.app/Contents/Resources/empty.lproj
+profile.o
