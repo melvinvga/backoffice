@@ -24,11 +24,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
+    add.cpp \
+    delete.cpp \
+    initialize.cpp \
         mainwindow.cpp \
-    connexion.cpp
+    connexion.cpp \
+    modify.cpp \
+    profile.cpp
 
 HEADERS  += mainwindow.h \
-    connexion.h
+    connexion.h \
+    profile.h
 
 FORMS    += mainwindow.ui \
-    connexion.ui
+    connexion.ui \
+    profile.ui

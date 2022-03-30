@@ -21,6 +21,7 @@ private slots:
 
 private:
     Ui::Connexion *ui;
+    QString numEmpl;
 };
 
 #endif // CONNEXION_H

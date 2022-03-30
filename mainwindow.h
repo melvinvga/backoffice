@@ -58,11 +58,15 @@ private slots:
 
     void on_pushButtonSupprimerClient_clicked();
 
+    void on_pushButtonProfile_clicked();
+
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString numEmpl;
     void afficherTable();
-    int cptProduit=0, cptVariete=0, cptRayon=0, cptProducteur=0, cptClient=0;
+    int cptProduit=0, cptVariete=0, cptRayon=0, cptProducteur=0, cptClient=0, cptHistorique=0;
     QList <QCheckBox *> listeProduit;
     QList <QCheckBox *> listeVariete;
     QList <QCheckBox *> listeRayon;

@@ -19,12 +19,8 @@ int main(int argc, char *argv[])
 
     Connexion seConnecter;
     if(seConnecter.exec()==QDialog::Accepted){
-        qDebug()<<"ok2";
         MainWindow w(seConnecter.getNumEmpl());
-        qDebug()<<"ok3";
         w.show();
-        qDebug()<<"ok4";
         return a.exec();
-        qDebug()<<"ok5";
     }
 }

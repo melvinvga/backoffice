@@ -83,6 +83,7 @@ void Connexion::on_pushButtonOk_clicked()
             {
                 ui->labelValue->setText("Mot de passe incorect");
                 ui->lineEditLogin->setStyleSheet("background-color: #82d682;");
+                ui->lineEditMdp->setStyleSheet("background-color: #ff3632;");
             }
         }
         else
